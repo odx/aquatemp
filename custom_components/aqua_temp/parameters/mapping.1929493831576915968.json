@@ -5,9 +5,15 @@
   "temperature": "R01",
   "current_temperature": "T02",
   "hvac_modes": {
+    "off": {
+      "set": "0",
+      "target": "Power",
+      "minimum": null,
+      "maximum": null
+    },
     "heat": {
       "set": "1",
-      "target": "R01",
+      "target": "Power",
       "minimum": "R04",
       "maximum": "R05"
     }
