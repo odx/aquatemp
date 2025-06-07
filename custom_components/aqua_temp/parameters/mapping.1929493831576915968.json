@@ -1,5 +1,5 @@
 {
-  "mode": "mode_real",
+  "mode": "Power",
   "power": "Power",
   "fan": "Manual-mute",
   "temperature": "R01",
@@ -7,13 +7,13 @@
   "hvac_modes": {
     "off": {
       "set": "0",
-      "target": "Power",
+      "target": null,
       "minimum": null,
       "maximum": null
     },
     "heat": {
       "set": "1",
-      "target": "Power",
+      "target": "R01",
       "minimum": "R04",
       "maximum": "R05"
     }
