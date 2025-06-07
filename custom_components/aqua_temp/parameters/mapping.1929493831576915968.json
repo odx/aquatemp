@@ -1,6 +1,7 @@
 {
   "mode": "mode_real",
   "power": "Power",
+  "fan": "Manual-mute",
   "temperature": "R01",
   "current_temperature": "T02",
   "hvac_modes": {
@@ -10,5 +11,9 @@
       "minimum": "R04",
       "maximum": "R05"
     }
+  },
+  "fan_modes": {
+    "auto": "0",
+    "low": "1"
   }
 }
