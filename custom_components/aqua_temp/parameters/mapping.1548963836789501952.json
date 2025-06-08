@@ -5,6 +5,12 @@
   "temperature": "R01",
   "current_temperature": "T02",
   "hvac_modes": {
+    "off": {
+      "set": null,
+      "target": null,
+      "minimum": null,
+      "maximum": null
+    },
     "cool": {
       "set": "0",
       "target": "R06",
