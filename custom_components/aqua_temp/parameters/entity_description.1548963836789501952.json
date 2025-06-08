@@ -1,0 +1,146 @@
+[
+  {
+    "key": "Power",
+    "name": "Power",
+    "platform": "binary_sensor",
+    "device_class": "power",
+    "on_value": "1"
+  },
+  {
+    "key": "Material_Code",
+    "name": "Software Material_Code",
+    "platform": null
+  },
+  {
+    "key": "Manual-mute",
+    "name": "Manual-mute",
+    "platform": null
+  },
+  {
+    "key": "Prog_Version",
+    "name": "Prog_Version",
+    "platform": null
+  },
+  {
+    "key": "O01",
+    "name": "Compressor [O01]",
+    "platform": "sensor",
+    "device_class": "binary_sensor",
+    "on_value": "1"
+  },
+  {
+    "key": "O02",
+    "name": "Circulate Pump [O02]",
+    "platform": "sensor",
+    "device_class": "binary_sensor",
+    "on_value": "1"
+  },
+  {
+    "key": "O03",
+    "name": "Fan Motor [O03]",
+    "platform": "sensor",
+    "device_class": "binary_sensor",
+    "on_value": "1"
+  },
+  {
+    "key": "O04",
+    "name": "4-way Valve [O04]",
+    "platform": "sensor",
+    "device_class": "binary_sensor",
+    "on_value": "1"
+  },
+  {
+    "key": "R01",
+    "name": "Target temp [R01]",
+    "platform": "sensor",
+    "device_class": "temperature",
+    "unit_of_measurement": "\u00b0C"
+  },
+  {
+    "key": "R04",
+    "name": "Minimum Target temp [R04]",
+    "platform": "sensor",
+    "device_class": "temperature",
+    "unit_of_measurement": "\u00b0C"
+  },
+  {
+    "key": "R05",
+    "name": "Maximum Target temp [R05]",
+    "platform": "sensor",
+    "device_class": "temperature",
+    "unit_of_measurement": "\u00b0C"
+  },
+  {
+    "key": "T01",
+    "name": "Suction Temp. [T01]",
+    "platform": "sensor",
+    "device_class": "temperature",
+    "unit_of_measurement": "\u00b0C"
+  },
+  {
+    "key": "T02",
+    "name": "Inlet water Temp. [T02]",
+    "platform": "sensor",
+    "device_class": "temperature",
+    "unit_of_measurement": "\u00b0C"
+  },
+  {
+    "key": "T03",
+    "name": "Outlet water Temp. [T03]",
+    "platform": "sensor",
+    "device_class": "temperature",
+    "unit_of_measurement": "\u00b0C"
+  },
+  {
+    "key": "T04",
+    "name": "Pipe Temp. [T04]",
+    "platform": "sensor",
+    "device_class": "temperature",
+    "unit_of_measurement": "\u00b0C"
+  },
+  {
+    "key": "T05",
+    "name": "Ambient Temp. [T05]",
+    "platform": "sensor",
+    "device_class": "temperature",
+    "unit_of_measurement": "\u00b0C"
+  },
+  {
+    "key": "T06",
+    "name": "Exhaust Temp. [T06]",
+    "platform": "sensor",
+    "device_class": "temperature",
+    "unit_of_measurement": "\u00b0C"
+  },
+  {
+    "key": "State_power",
+    "name": "State_power",
+    "platform": null
+  },
+  {
+    "key": "State_mode",
+    "name": "State_mode",
+    "platform": null
+  },
+  {
+    "key": "S01",
+    "name": "HP Switch",
+    "platform": "sensor",
+    "device_class": "binary_sensor",
+    "on_value": "1"
+  },
+  {
+    "key": "S02",
+    "name": "LP Switch",
+    "platform": "sensor",
+    "device_class": "binary_sensor",
+    "on_value": "1"
+  },
+  {
+    "key": "S03",
+    "name": "Flow switch",
+    "platform": "sensor",
+    "device_class": "binary_sensor",
+    "on_value": "1"
+  }
+]
