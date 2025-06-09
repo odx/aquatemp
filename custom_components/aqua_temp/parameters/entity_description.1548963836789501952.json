@@ -189,7 +189,7 @@
   },
   {
     "key": "H05",
-    "name": "Outlet Walter Temperature Sensor [H05]",
+    "name": "Outlet Water Temperature Sensor [H05]",
     "platform": "sensor",
     "device_class": "binary_sensor",
     "on_value": "1"
